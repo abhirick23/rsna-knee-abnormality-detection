@@ -6,6 +6,7 @@ __pycache__/
 train.csv
 *_labels.jsonl
 report_labels.csv
+kaggle_dataset/gemini_report_labels.csv
 
 # large/derived artifacts - regenerate from src/, don't commit
 *.pt

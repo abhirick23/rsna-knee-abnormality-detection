@@ -23,6 +23,11 @@ later shows it was noise (~10 positives in 58 studies, SE ≈ 0.09). Panel A
 is a controlled demonstration; panel B is what the same failure mode looked
 like in practice.
 
+This measurement finding is also published as a standalone, live-running
+notebook: **[kaggle.com/code/abhiroopsarkar/the-instrument-decided-not-the-model](https://www.kaggle.com/code/abhiroopsarkar/the-instrument-decided-not-the-model)**.
+The report-label dataset this project generated is published separately:
+**[kaggle.com/datasets/abhiroopsarkar/rsna-knee-gemini-report-labels](https://www.kaggle.com/datasets/abhiroopsarkar/rsna-knee-gemini-report-labels)**.
+
 ## Problem and constraints
 
 - 4,407 training studies, 24,371 series, 819,640 DICOM files (569 GB).
