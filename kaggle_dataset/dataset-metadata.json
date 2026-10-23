@@ -1,10 +1,18 @@
 {
  "title": "RSNA Knee Report Labels (Gemini)",
  "id": "abhiroopsarkar/rsna-knee-gemini-report-labels",
+ "subtitle": "Gemini-labeled knee MRI reports: 12 findings, 4,407 studies, open method",
+ "description": "Soft labels (0-1 probability per finding) for the 12 findings in the RSNA Knee Abnormality Detection competition, generated from the free-text radiology report of each of the 4,407 training studies (not the images). Each report was scored in a single structured-output call to Gemini using a prompt with explicit per-finding definitions, then checked against the competition's 58 expert-labeled studies: 0.866 macro AUC. Full generation code, the prompt, and a documented failed attempt to improve the four weakest labels are in the linked GitHub repo. See README.md in this dataset for the per-finding AUC breakdown and known limitations (Synovitis in particular is weak because it's often undocumented in report text even when present on imaging).",
  "licenses": [
   {
    "name": "CC0-1.0"
   }
+ ],
+ "keywords": [
+  "healthcare",
+  "nlp",
+  "medicine",
+  "classification"
  ],
  "isPrivate": false
 }
