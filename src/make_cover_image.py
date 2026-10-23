@@ -70,6 +70,6 @@ for s in ("top", "right", "left"):
 ax.tick_params(axis="y", length=0)
 
 here = os.path.dirname(os.path.abspath(__file__))
-out = os.path.join(here, "..", "kaggle_dataset", "cover.png")
+out = os.path.join(here, "..", "kaggle_dataset_assets", "cover.png")
 fig.savefig(out, dpi=200, facecolor=c["surface"])
 print("wrote", out)
