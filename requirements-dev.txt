@@ -1,0 +1,4 @@
+# Tooling used once to pull and convert the Kaggle notebooks into this repo.
+# Not needed to run the pipeline itself (see requirements.txt).
+kaggle
+nbconvert

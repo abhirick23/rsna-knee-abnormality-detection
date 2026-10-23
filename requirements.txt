@@ -1,3 +1,4 @@
 pandas
 google-genai
 scikit-learn
+matplotlib
