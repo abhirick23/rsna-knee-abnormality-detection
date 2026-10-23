@@ -1,4 +1,20 @@
 venv/
 __pycache__/
 *.pyc
+
+# competition data - not ours to redistribute (Kaggle rules)
 train.csv
+*_labels.jsonl
+report_labels.csv
+
+# large/derived artifacts - regenerate from src/, don't commit
+*.pt
+*.npz
+*.npy
+stuppid_claude/
+
+# IDE
+.vscode/
+
+# Kaggle plumbing, not authored content
+results/__huggingface_repos__.json
